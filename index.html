@@ -246,7 +246,7 @@ input[type="text"]::placeholder { color: var(--dimmed); }
       <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
       <div class="form-row">
         <label>Your Name</label>
-        <input type="text" id="voterName" placeholder="Enter your name" maxlength="60">
+        <input type="text" id="voterName" placeholder="Enter your full name" maxlength="60">
       </div>
       <div class="search-wrap">
         <input type="text" id="searchBox" placeholder="🔍  Search operas or composers…" oninput="filterGrid()">
@@ -326,7 +326,7 @@ input[type="text"]::placeholder { color: var(--dimmed); }
 // ── CONFIG ──────────────────────────────────────────────────
 const SCRIPT_URL  = "https://script.google.com/macros/s/AKfycbwmHbiUKXDZU212stIiKavaNsjcZGorqeNiFhl8fwbrLCnlI-GeGVE0GKf_5tKXqjoS1A/exec";
 const MAX_PICKS   = 6;
-const MAX_ENTRIES = 50;
+const MAX_ENTRIES = 100;
 
 // ── OPERA LIST ───────────────────────────────────────────────
 const OPERAS = [
